@@ -1,7 +1,7 @@
 import pytest
 
 from jumpscale.god import j
-from jumpscale.data.treemanager.exceptions import NameExistsError, EmptyNameError, RootRemoveError
+from jumpscale.data.treemanager import NameExistsError, EmptyNameError, RootRemoveError
 
 
 def convert_to_names_dict(subtree):
